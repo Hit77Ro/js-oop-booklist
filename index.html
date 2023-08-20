@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./scss/global.css" />
+    <title>OOP Book list </title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Book list</h1>
+      <form class="form">
+        <div class="form__row">
+          <label for="title">title</label>
+          <input
+            required
+            type="text"
+            placeholder="title"
+            id="title"
+            name="title"
+          />
+        </div>
+        <div class="form__row">
+          <label for="author">author</label>
+          <input
+            required 
+            name="author"
+            type="text"
+            placeholder="author"
+            id="author"
+          />
+        </div>
+        <div class="form__row">
+          <label for="isbn">isbn</label>
+          <input
+            required
+            name="isbn"
+            type="text"
+            placeholder="isbn"
+            id="isbn"
+          />
+        </div>
+        <button type="submit">submit form</button>
+      </form>
+      <table class="books">
+        <thead>
+          <tr>
+          <th>title</th>
+          <th>author</th> 
+          <th>isbn</th>
+          <th>settings</th>
+        </tr>
+      </thead>
+        <tbody>
+         
+        </tbody>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
